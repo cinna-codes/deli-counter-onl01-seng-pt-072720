@@ -13,7 +13,7 @@ end
   end
 
 def take_a_number(katz_deli, name)
-  katz_deli.push << name
+  katz_deli << name
   customer = katz_deli[-1]
   num = katz_deli.length + 1
   num = num.to_s
