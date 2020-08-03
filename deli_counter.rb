@@ -14,5 +14,5 @@ end
 
 #def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  new_customer = katz_deli[-1]
+  num = katz_deli.length + 1
 #end
