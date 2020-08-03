@@ -12,15 +12,10 @@ def line(katz_deli)
 end
   end
 
-#def take_a_number2(katz_deli, name)
-#  katz_deli = katz_deli.push(name)
-#  customer = katz_deli[-1]
-#  num = katz_deli.length
-#  num = num.to_s
-#  puts "Welcome, " + customer + ". You are number " + num + " in line."
-#end
-
-def take_a_number(katz_deli, name)
+def take_a_number2(katz_deli, name)
   katz_deli = katz_deli.push(name)
-  puts "Welcome, " + customer + ". You are number " + katz_deli.length + " in line."
+  customer = katz_deli[-1]
+  num = katz_deli.length
+  num = num.to_s
+  puts "Welcome, " + customer + ". You are number " + num + " in line."
 end
