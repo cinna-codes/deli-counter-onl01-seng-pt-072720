@@ -14,7 +14,6 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli = katz_deli.push(name)
-#  customer = katz_deli[-1]
   num = katz_deli.length
   num = num.to_s
   puts "Welcome, " + name + ". You are number " + num + " in line."
